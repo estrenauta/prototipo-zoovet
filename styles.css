@@ -1,0 +1,104 @@
+h1 {
+  color: green;
+  font-size: 20px;
+  text-align: center;
+}
+ul {font-family:  fantasy;
+    font-size: 14px;
+}
+img{
+  width: 200px;
+}
+.logo {
+  width: 20px;
+  float: left;
+}
+.imagenes {
+  width: 200px;
+}
+body {
+  background-image: url(Zoovetblanco.jpg);
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+header {
+  width: 1000px;
+  margin: 0 auto;
+  height: 180px;
+  padding: 0;
+  border: 5px solid green;
+  background-image: url(Zoovetnegro.jpg);
+  background-size: contain;
+}
+article {
+  font-family: Open Sans;
+  font-size: 22px;
+  display: inline-block;
+  border: 1px solid black;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  background: white;
+  vertical-align: text-bottom;
+}
+container {
+  font-family: Open Sans;
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid black;
+  width: auto;
+  margin: 0 auto;
+  padding: 0;
+  background: white;
+  vertical-align: text-bottom;
+}
+nav {
+  display: inline-block;
+  border: 1px solid black;
+  width: 20%;
+  height: 410px;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  float: left;
+  background: #E83535;
+}
+section {
+  display: inline-block;
+  border: 1px solid black;
+  width: 58%;
+  height: 410px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background: gray;
+  background-size: cover;
+  vertical-align: top;
+}
+
+aside {
+   display: inline-block;
+   border: 1px solid black;
+   width: 20%;
+   height: 410px;
+   margin: 0;
+   padding: 0;
+   float:  left;
+   background-color: white;
+   vertical-align: top;
+ }
+footer {
+  width: 1150px;
+  height: 70px;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+  background: #000000;
+  display: block;
+  float: left;
+  color: #eee;
+  clear: both;
+  align-content: center;
+}
