@@ -6,18 +6,16 @@ h1 {
 ul {font-family:  fantasy;
     font-size: 14px;
 }
-img{
-  width: 200px;
-}
 .logo {
   width: 20px;
   float: left;
 }
 .imagenes {
-  width: 200px;
+  width: 250px;
 }
 body {
-  background-image: url(Zoovetblanco.jpg);
+  background-image: url(imagenes/Zoovetblanco.jpg);
+  background-size: cover;
   text-align: center;
   font-size: 30px;
   font-family: monospace;
@@ -28,8 +26,8 @@ header {
   height: 180px;
   padding: 0;
   border: 5px solid green;
-  background-image: url(Zoovetnegro.jpg);
-  background-size: contain;
+  background-image: url(imagenes/Zoovetnegro.jpg);
+  background-size:  contain;
 }
 article {
   font-family: Open Sans;
@@ -63,7 +61,7 @@ nav {
   padding: 0;
   border: 0;
   float: left;
-  background: #E83535;
+  background;
 }
 section {
   display: inline-block;
@@ -73,7 +71,7 @@ section {
   margin: 0;
   padding: 0;
   float: left;
-  background: gray;
+  background;
   background-size: cover;
   vertical-align: top;
 }
@@ -86,7 +84,7 @@ aside {
    margin: 0;
    padding: 0;
    float:  left;
-   background-color: white;
+   background;
    vertical-align: top;
  }
 footer {
