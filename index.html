@@ -1,57 +1,134 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>Foovet></title>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="imagenes/Zoovet2.ico"/>
+        <title>Mi primer página</title>
+        <link rel="icon" href="images/byr.gif"/>
 
-    <meta charset="utf-8">
-    <link href="styles.css" rel="stylesheet">
-    <link rel="icon" href="imagenes/Zoovet2.ico"/>
-  </head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <img src="imagenes/Zoovet1.png" height="120" alt="Zoovet logo">
+                <h1>Zoovet Veterinarios</h1>
+            </header>
+            <div class="main-body">
+                <section>
+                        <div class="main-text">
+                            <html lang="en">
+                            <head>
+                              <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+                              <link rel="stylesheet" href="styles.css">
+                              <meta charset="UTF-8">
+                              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                              <title>Document</title>
+                            </head>
+                            <body>
+                              <section class="selection">
+                                <h1 class="selection__title">Elige una opción</h1>
+                                <form>
+                                  <label for="perro" class="perro">
+                                    <h2>Carnet virtual</h2>
+                                  </label>
+                                  <label for="gato" class="gato">
+                                    <h2>Agendar cita</h2>
+                                  </label>
+                                  <label for="tortuga" class="tortuga">
+                                    <h2>Recordatorio</h2>
+                                  </label>
 
-  <body>
-      <header>
-        <img class="logo" src="imagenes/Zoovet1.png" alt="Zoovetlogo" title="zoovet">
-        <article> Menú
-          <a href="https://www.facebook.com/Zoovet.veterinarios" target="-_blank">Inicio</a>
-          <a href="https://www.instagram.com/zooveterinarios/" target=”_blank”> Fotos</a>
-          <a href="https://www.twitter.com/Zooveterinarios" target="-_blank"> Información</a>
-        </article>
+                                  <input id="perro" name="pet" type="radio" value="perro">
+                                  <input id="gato" name="pet" type="radio" value="gato">
+                                  <input id="tortuga" name="pet" type="radio" value="tortuga">
+                                </form>
+                              </section>
 
+                              <section class="results hidden">
+                                <img class="results__img cat-win hidden" src="imagenes/viva-mascotas-logo.png" alt="">
+                                <img class="results__img dog-win hidden" src="dog-win.jpeg" alt="">
+                                <img class="results__img turtle-win hidden" src="turtle-win.jpg" alt="">
+                              </section>
+                              <script src="scripts.js"></script>
+                            </body>
+                        </div>
+                </section>
+            </div>
+            <div class="main-body">
+                <section>
+                        <img src="images/magritte.jpg" alt="Foto">
+                        <div class="main-text">
+                            <h2>Artículo</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus perferendis explicabo libero totam error! Possimus voluptatum quibusdam natus ex, consequuntur nisi alias. Ducimus libero voluptatum ratione non, asperiores dolorum iste.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut enim officiis esse amet officia nesciunt voluptatibus assumenda sunt inventore laboriosam iste culpa, quas animi corporis doloremque incidunt aut qui et.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt error expedita voluptates aperiam magnam nostrum culpa et corrupti pariatur aut delectus a, facilis amet necessitatibus atque aliquam aliquid architecto quis.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ea tempora laudantium eum, repudiandae neque maxime voluptatum mollitia, praesentium culpa ut, aperiam amet dignissimos. Et quisquam ratione labore. Debitis, consequatur!</p>
+                        </div>
+                </section>
+                <nav>
+                    <ul>
+                      <h3>Dra. Bautista</h3>
+                      <h3>Dra. Olea</h3>
+                      <h3>Dr. Cohen</h3>
+                      <h3>Dr. Arellano</h3>
+                      <h3>Dr. González</h3>
+                    </ul>
+                </nav>
+            </div>
+            <div class="final-body">
+                <section>
+                        <div class="main-text">
+                            <html lang="en">
+                            <head>
+                              <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+                              <link rel="stylesheet" href="styles.css">
+                              <meta charset="UTF-8">
+                              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                              <title>Document</title>
+                            </head>
+                            <body>
+                              <section class="selection">
+                                <h1 class="selection__title">Elige una opción</h1>
+                                <form>
+                                  <label for="perro" class="perro">
+                                    <h2>Carnet virtual</h2>
+                                  </label>
+                                  <label for="gato" class="gato">
+                                    <h2>Agendar cita</h2>
+                                  </label>
+                                  <label for="tortuga" class="tortuga">
+                                    <h2>Recordatorio</h2>
+                                  </label>
 
-      </header>
-      <div>
-        <nav>
-          <container> Menú
-            <a href="https://www.facebook.com/Zoovet.veterinarios" target="-_blank">Inicio</a>
-            <a href="https://www.instagram.com/zooveterinarios/" target=”_blank”> Fotos</a>
-            <a href="https://www.twitter.com/Zooveterinarios" target="-_blank"> Información</a>
-        </container>
-          <p>Zoovet Veterinarios</p>
-          <h6> menu</h6>
-          <p> submenu</p>
-        </nav>
-        <section>
-          <img class="imagenes"><img src="imagenes/fabGlez.jpg"> <img src="https://techcrunch.com/wp-content/uploads/2015/08/safe_image.gif?w=730&crop=1"></img>
-        <h1>Esta es una página de demostración. Prototipo de Zoovet</h1>
-      </section>
+                                  <input id="perro" name="pet" type="radio" value="perro">
+                                  <input id="gato" name="pet" type="radio" value="gato">
+                                  <input id="tortuga" name="pet" type="radio" value="tortuga">
+                                </form>
+                              </section>
 
-
-      <aside>
-        <ul>Médicos disponibles
-          <li>Dra. Bautista</li>
-          <li>Dr. Pinto</li>
-          <li>Dra. Olea</li>
-        </ul>
-      </aside>
-    </div>
-    <footer>
-      <p>México 2018</p>
-      <div class="social-buttons">
-        <a class="itemsocial" href="https://www.facebook.com/Zoovet.veterinarios" id="Facebook" target="_blank"></a>
-        <a class="itemsocial" href="https://www.twitter.com/Zooveterinarios" id="Twitter" target="_blank"></a>
-        <a class="itemsocial" href="https://www.instagram.com/zooveterinarios/" id="Instagram" target="_blank"></a>
-      </div>
-  </body>
-
-
+                              <section class="results hidden">
+                                <img class="results__img cat-win hidden" src="imagenes/viva-mascotas-logo.png" alt="">
+                                <img class="results__img dog-win hidden" src="dog-win.jpeg" alt="">
+                                <img class="results__img turtle-win hidden" src="turtle-win.jpg" alt="">
+                              </section>
+                              <script src="scripts.js"></script>
+                            </body>
+                        </div>
+                </section>
+            </div>
+            <footer>
+                <p>© 2018 Derechos Reservados</p>
+                <div class="networks">
+                  <a class="itemsocial" href="https://www.facebook.com/Zoovet.veterinarios" id="Facebook" target="_blank">
+                    <img src="imagenes/fb.png" alt="Google+ icon" height="24px"></a>
+                  <a class="itemsocial" href="https://www.twitter.com/Zooveterinarios" id="Twitter" target="_blank">
+                    <img src="imagenes/tw.png" alt="Twitter icon" height="24px"></a>
+                  <a class="itemsocial" href="https://www.instagram.com/zooveterinarios/" id="Instagram" target="_blank">
+                    <img src="imagenes/insta.png" alt="Instagram icon" height="24px"></a>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
