@@ -3,9 +3,8 @@
 } */
 
 body{
-    background-image: url("https://s3.amazonaws.com/playbackmediatest/previews/2016/09/22025608/Refracted_Light_Still_2_prod.jpg");
     background-image: url(imagenes/Zoovetblanco.jpg);
-    background-size: cover;
+    background-size: contain;
     text-align: center;
 }
 .container{
@@ -124,8 +123,8 @@ body {
 /* Selection */
 
 .selection {
-  background-image: url('background.jpg');
-  background-size: cover;
+  background-image: url('imagenes/background.jpg');
+  background-size: contain;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,6 +136,7 @@ body {
 .selection__title {
   font-size: 45px;
   text-transform: uppercase;
+  justify-content: space-around;
 }
 
 input {
@@ -164,11 +164,11 @@ label:hover {
 }
 
 .perro {
-  background-image: url('imagenes/viva-mascotas-logo.png');
+  background-image: url('imagenes/carnet.jpg');
 }
 
 .gato {
-  background-image: url('https://www.abc.es/media/sociedad/2016/10/20/gato-huerfano2-kM2--620x349@abc.jpg');
+  background-image: url('imagenes/agenda.jpg');
 }
 
 .tortuga {
